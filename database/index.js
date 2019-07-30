@@ -8,11 +8,14 @@ mongoose.connect('mongodb://localhost/shadowmoses', { useNewUrlParser: true })
 
 
 const itemSchema = mongoose.Schema({
-    type: {type: String},
-    name: {type: String},
-    color: {type: String},
-    img1: {type: String},
-    img2: {type: String}
+    type: String,
+    name: String,
+    color: String,
+    preview1: String,
+    preview2: String,
+    img1: String,
+    img2: String,
+    price: String
 });
 
 const Item = mongoose.model('Item', itemSchema)

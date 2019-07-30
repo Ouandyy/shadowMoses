@@ -1,15 +1,63 @@
 body {
-  background-color:white;
-  
+  background-color:black;
 }
 
 #navbarApp {
   background-color:black;
   color: white;
+  width: 100%;
+  position: fixed;
 }
 
 #whiteLetter {
   color: white
 }
 
+#logo {
+  font-family: "wfont_dcd1e8_30d81216be4e4a018b7bd06c9a5581dc,wf_30d81216be4e4a018b7bd06c9,orig_urwclassico"
 
+}
+
+.loginButton {
+  text-align: center;
+  padding: 0;
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 14px;
+  color:#fff;
+  margin-bottom: 24px;
+  font-weight: 300;
+  outline: 0;
+}
+
+.shopping {
+  background-color: #fff;
+  height: 1600px;
+  text-align: center;
+}
+
+.itemContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.itemImg {
+  padding: 20px;
+  float: left;
+  margin-top: 100px
+}
+
+.footComp {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: wfont_dcd1e8_30d81216be4e4a018b7bd06c9a5581dc,wf_30d81216be4e4a018b7bd06c9,orig_urwclassico
+}
