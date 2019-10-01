@@ -15,7 +15,7 @@ const itemSchema = mongoose.Schema({
     preview2: String,
     img1: String,
     img2: String,
-    price: String
+    price: Number
 });
 
 const Item = mongoose.model('Item', itemSchema)
