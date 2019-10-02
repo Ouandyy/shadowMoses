@@ -24,7 +24,7 @@ leaveHover (e) {
     return (
     <div className="itemContainer">
     <div className="itemImg">
-    <img src={this.state.photo} onMouseEnter={this.onHover} onMouseLeave={this.leaveHover}></img>
+    <img id='previewimg' src={this.state.photo} onMouseEnter={this.onHover} onMouseLeave={this.leaveHover}></img>
     <div>{this.props.item.name}</div>
     <div>${this.props.item.price}</div>
     </div>

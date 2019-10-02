@@ -13,8 +13,6 @@ const itemSchema = mongoose.Schema({
     color: String,
     preview1: String,
     preview2: String,
-    img1: String,
-    img2: String,
     price: Number
 });
 
