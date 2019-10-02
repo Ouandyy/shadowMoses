@@ -23,7 +23,7 @@ class Navbarr extends Component {
           <NavDropdown title="Shop" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#all" id="all" onClick={this.props.clicker}>All</NavDropdown.Item>
             <NavDropdown.Item href="#tshirt" id="tshirt" onClick={this.props.clicker}>T-Shirt</NavDropdown.Item>
-            <NavDropdown.Item href="#sweather" id="sweather" onClick={this.props.clicker}>Sweather</NavDropdown.Item>
+            <NavDropdown.Item href="#sweather" id="sweater" onClick={this.props.clicker}>Sweater</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Events" id="collasible-nav-dropdown">
             <NavDropdown.Item id="jp" onClick={this.props.clicker}>JP</NavDropdown.Item>

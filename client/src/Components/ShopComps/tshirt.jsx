@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 import Shopitem from './Shopitem.jsx';
 import axios from 'axios'
-class Shop extends Component {
+class Tshirt extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      all: [],
-      tshirt: [],
-      sweater: []
+      tshirt: []
     }
   }
 
  componentDidMount() {
-    axios.get(`/data/info/inventory/all`)
+    axios.get(`/data/info/inventory/tshirt`)
       .then(({data})=>{
-        this.setState({all: data})
+        this.setState({tshirt: data})
       })
       .catch((err)=>{
         console.log(err,'error')
@@ -23,10 +21,10 @@ class Shop extends Component {
 
 
   render() {
-    if (this.props.name === 'all') {
+    if (this.props.name === 'tshirt') {
       return (  
         <div className="shopping">
-        {this.state.all.map((item, index) => {
+        {this.state.tshirt.map((item, index) => {
           return <Shopitem item={item} key={index}/>
         })}
         </div>
@@ -38,4 +36,4 @@ class Shop extends Component {
   }
 }
 
-export default Shop;
+export default Tshirt;

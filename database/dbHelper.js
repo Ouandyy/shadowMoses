@@ -3,4 +3,12 @@ const item = require('./index')
 const getAll = () => {
     return item.find({});
 };
-module.exports = { getAll }
+
+const getTshirt = () => {
+    return item.find({ type: 'tshirt' })
+}
+
+const getSweater = () => {
+    return item.find({ type: 'sweater' })
+}
+module.exports = { getAll, getTshirt, getSweater }
