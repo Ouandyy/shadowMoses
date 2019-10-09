@@ -1,7 +1,9 @@
 const Item = require('./index.js');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/shadowmoses', { useNewUrlParser: true } )
+mongoose.connect('mongodb://localhost/shadowmoses', { useNewUrlParser: true } );
+
+
 var items = [
   new Item({
     type: 'sweater',

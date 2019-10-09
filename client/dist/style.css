@@ -32,9 +32,21 @@ body {
   outline: 0;
 }
 
+.shoppingTshirt {
+  background-color: #fff;
+  height: 1500px;
+  text-align: center;
+}
+
+.shoppingSweater {
+  background-color: #fff;
+  height: 1500px;
+  text-align: center;
+}
+
 .shopping {
   background-color: #fff;
-  height: 1600px;
+  height: 2500px;
   text-align: center;
 }
 
@@ -65,3 +77,64 @@ body {
   font-family: wfont_dcd1e8_30d81216be4e4a018b7bd06c9a5581dc,wf_30d81216be4e4a018b7bd06c9,orig_urwclassico
 }
 
+.Event {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  float: left;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+#CartButton {
+  width: 80%;
+  border-radius: 4px;
+}
+
+#cartItem {
+  width:100%;
+  height: auto;
+  margin: 10px
+}
+
+#cartImg {
+  max-width: 10%;
+  height: auto;
+  margin-left: 10px;
+}
+
+#cartName {
+  float: right;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+
+#cartPrice {
+  float:right;
+  margin-top:50px;
+}
+
+#cartNum {
+  float:left;
+  margin-top: 50px;
+}
+
+#totalItem {
+  float:right;
+}
+
+#grandTotal {
+  float:right;
+}
+
+#homeImgContainer {
+  width: 100%;
+  height: auto;
+}
+
+#homepageImg {
+  max-width: 50%;
+  height: auto;
+  margin-left: 25%;
+}

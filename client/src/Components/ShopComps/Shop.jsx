@@ -5,11 +5,10 @@ class Shop extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      all: [],
-      tshirt: [],
-      sweater: []
+      all: []
     }
   }
+
 
  componentDidMount() {
     axios.get(`/data/info/inventory/all`)

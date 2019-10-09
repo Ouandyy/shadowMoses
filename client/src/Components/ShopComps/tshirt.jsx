@@ -22,8 +22,8 @@ class Tshirt extends Component {
 
   render() {
     if (this.props.name === 'tshirt') {
-      return (  
-        <div className="shopping">
+      return (  console.log(this.state.tshirt),
+        <div className="shoppingTshirt">
         {this.state.tshirt.map((item, index) => {
           return <Shopitem item={item} key={index}/>
         })}

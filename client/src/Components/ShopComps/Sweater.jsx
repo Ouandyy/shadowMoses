@@ -23,7 +23,7 @@ class Sweater extends Component {
   render() {
     if (this.props.name === 'sweater') {
       return (  
-        <div className="shopping">
+        <div className="shoppingSweater">
         {this.state.sweater.map((item, index) => {
           return <Shopitem item={item} key={index}/>
         })}
